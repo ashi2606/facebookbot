@@ -36,5 +36,5 @@ MAILSLURP_INBOX_KEY= create index in mailslurp and get id
 
 ## Developer guidelines
 
-to send mail using api refer below services
+to send mail using api refer services
 https://www.mailslurp.com/
