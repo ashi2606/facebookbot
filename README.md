@@ -16,7 +16,7 @@ Application will be served on http://localhost:3000
 
 | Script           | Description                                     |
 | ---------------- | ----------------------------------------------- |
-| `npm start`      | Starts project in and download product list in json file|
+| `npm start`      | Starts project|
 | `npm run product` | fetch product list form url and store in local file project.json |
 | `npm run find:transactions` | Assessment-2  sort transactions in time asc order |
 
