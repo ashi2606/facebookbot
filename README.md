@@ -16,8 +16,8 @@ Application will be served on http://localhost:3000
 
 | Script           | Description                                     |
 | ---------------- | ----------------------------------------------- |
-| `npm start`      | Starts project|
-| `npm run product` | fetch product list form url and store in local file project.json |
+| `npm start`      | Start project|
+| `npm run product` | fetch product list form url and store in local file  files/project.json |
 | `npm run find:transactions` | Assessment-2  sort transactions in time asc order |
 
 
@@ -27,11 +27,11 @@ Application will be served on http://localhost:3000
 
 Create a `.env` in the root directory and set the following variables.
 ```
-VERIFY_TOKEN=
-PAGE_ACCESS_TOKEN=
-ADMIN_EMAIL=
-API_KEY_MAILSLURP=
-MAILSLURP_INBOX_KEY=
+VERIFY_TOKEN= random string need to verify on facebook webhook
+PAGE_ACCESS_TOKEN= facebook page access token
+ADMIN_EMAIL= Email to send order place
+API_KEY_MAILSLURP=get from mailslurp account after sign up
+MAILSLURP_INBOX_KEY= create index in mailslurp and get id
 ```
 
 ## Developer guidelines
